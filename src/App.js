@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Country from './Container/Country/Country';
+import City from './Container/City/City';
+import Countryfun from './Container/Countryfun/Countryfun';
+import Cityfun from './Container/Cityfun/Cityfun';
 
-function App() {  
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React today git (no works) git 21-6-24
-        </a>
-      </header>
-    </div>
+    // fargment
+    <>
+      <Country />
+      <City />
+      <Countryfun />
+      <Cityfun />
+    </>
   );
 }
 
