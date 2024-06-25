@@ -1,25 +1,12 @@
 import React, { Component } from 'react';
 
 export default class City extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            cityName: 'Surat'
-        }
-    }
-
-    changeCity = () => {
-        this.setState({
-            cityName:'Bhavanagar'
-        })
-    }
 
     render() {
         return (
             <>
+                <h2>{this.props.cn === 'India' ? 'Surat' : 'New York'}</h2>
                 <div>City</div>
-                <p>{this.state.cityName}</p>
-                <button onClick={() => this.changeCity()}>Change City</button>
             </>
         );
     }

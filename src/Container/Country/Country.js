@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import City from '../City/City';
 
 // Class base component
 // state: It is an object that store information of particular component
@@ -13,10 +14,10 @@ export default class Country extends Component {
     }
 
     changeCountry = () => {
-        this.setState ({
-            countryName:'US'
+        this.setState({
+            countryName: 'US'
         })
-    } 
+    }
 
 
     render() {
@@ -24,7 +25,8 @@ export default class Country extends Component {
             <>
                 <div>Country</div>
                 <p>{this.state.countryName}</p>
-                <button onClick={() => this.changeCountry ()}>Change Country</button>
+                <button onClick={() => this.changeCountry()}>Change Country</button>
+                <City cn={this.state.countryName} />
             </>
         );
     }

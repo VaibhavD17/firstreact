@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
 
-function Cityfun(props) {
-    const [cityName, setCityname]= useState('Surat')
-
-    const changeCity = () => {
-        setCityname('Bhavnagar')
-    }
+function Cityfun({cn, x}) {
 
     return (
         <>
-        <div>Cityfun</div>
-        <p>{cityName}</p>
-        <button onClick={changeCity}>Change City</button>
+            <div>Cityfun</div>
+            <h2>{cn}</h2>
+            <p>{x}</p>
         </>
     );
 }
