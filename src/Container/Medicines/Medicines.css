@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.medicines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 20px;
+    row-gap: 60px;
+    column-gap: 60px;
+}
+
+.medicines .box {
+    width: 30%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.name {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+.price {
+    font-size: 40px;
+    color: rgb(236, 137, 6);
+    margin: 0;
+}
+
+.expiry {
+    font-size: 25px;
+    color: red;
+    margin: 10px 0;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

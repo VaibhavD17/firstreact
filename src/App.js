@@ -7,12 +7,13 @@ import Cityfun from './Container/Cityfun/Cityfun';
 import Course from './Container/Course/Course';
 import Timer from './Container/Timer/Timer';
 import Timerfun from './Container/TimerFun/Timerfun';
+import Medicines from './Container/Medicines/Medicines';
 
 function App() {
   return (
     // fargment
     <>
-      <Timerfun />
+      <Medicines />
     </>
   );
 }
