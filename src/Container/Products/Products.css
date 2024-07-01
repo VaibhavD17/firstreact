@@ -1,0 +1,22 @@
+.main-title {
+    font-size: 60px;
+    color: red;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-data {
+    margin-top: 80px !important;
+    row-gap: 80px;
+}
+
+.loading {
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -8,12 +8,14 @@ import Course from './Container/Course/Course';
 import Timer from './Container/Timer/Timer';
 import Timerfun from './Container/TimerFun/Timerfun';
 import Medicines from './Container/Medicines/Medicines';
+import Products from './Container/Products/Products';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     // fargment
     <>
-      <Medicines />
+      <Products />
     </>
   );
 }
